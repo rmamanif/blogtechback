@@ -6,7 +6,7 @@
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
     "dev": "nodemon --exec npm run babel-node ./api/index.js",
-    "start": "nodemon --exec babel-node ./api/index.js",
+    "start": "nodemon --exec npm run babel-node ./api/index.js",
     "test": "jest",
     "eslint": "eslint .",
     "eslint:fix": "eslint . --fix"
